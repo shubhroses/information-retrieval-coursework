@@ -1,5 +1,0 @@
-['Text-362.txt', 'Text-97.txt', 'Text-92.txt', 'Text-215.txt', 'Text-39.txt', 'Text-65.txt', 'Text-152.txt', 'Text-280.txt', 'Text-252.txt', 'Text-163.txt']
-['Text-348.txt', 'Text-25.txt', 'Text-328.txt', 'Text-86.txt', 'Text-413.txt', 'Text-160.txt', 'Text-321.txt', 'Text-273.txt', 'Text-163.txt', 'Text-177.txt']
-['Text-131.txt', 'Text-254.txt', 'Text-212.txt', 'Text-344.txt', 'Text-174.txt', 'Text-140.txt', 'Text-282.txt', 'Text-233.txt', 'Text-191.txt', 'Text-48.txt']
-['Text-318.txt', 'Text-305.txt', 'Text-323.txt', 'Text-396.txt', 'Text-300.txt', 'Text-188.txt', 'Text-79.txt', 'Text-324.txt', 'Text-163.txt', 'Text-177.txt']
-['Text-67.txt', 'Text-263.txt', 'Text-230.txt', 'Text-163.txt', 'Text-177.txt', 'Text-188.txt', 'Text-407.txt', 'Text-361.txt', 'Text-375.txt', 'Text-413.txt']
