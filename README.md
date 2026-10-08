@@ -60,7 +60,7 @@ The rest of the folder:
 
 - `practice3.ipynb` does exact top-k retrieval with Lucene on the three-document file `time/test.all`: it indexes the file, reads the document frequencies back through the Lucene index reader, builds TF-IDF vectors and ranks them by cosine similarity for a query typed at a prompt.
 - `practice5.ipynb` runs both feedback loops for queries 6, 9 and 12 with k = 50 and plots the three measures per iteration. `output.txt` is a hand-trimmed copy of the `get_stats` output for the same three queries.
-- `helper.py`, `indexer.py` and `retriever.py` are the parsers for the TIME file formats and a minimal PyLucene indexer and searcher, written against the three-document files `time/test.*`.
+- `helper.py`, `indexer.py` and `retriever.py` are the parsers for the TIME file formats and a minimal PyLucene indexer and searcher, written against the three-document files `time/test.*`. `retriever.py` searches the `index/` directory that `indexer.py` writes, so `indexer.py` has to be run first.
 - `practice4.ipynb`, `practice_files/` and `testing_functions/` are the notebooks in which the parsers and the first PyLucene calls were tried out.
 
 Part 3 needs NumPy and PyLucene, and `practice5.ipynb` also needs Matplotlib. PyLucene is not on PyPI. It is built from source with JCC, a JDK and a C++ compiler, as described in the [PyLucene build instructions](https://lucene.apache.org/pylucene/install.html). The repository has no Dockerfile for it. In November 2022 the code was run with Lucene 9.1.0 on Java 11 under Debian on aarch64. Those versions come from the metadata of the index files it wrote at the time, which are generated and are no longer kept in the repository.
