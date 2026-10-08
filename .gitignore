@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# macOS Finder metadata
+.DS_Store
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Local virtual environments
+.venv/
+venv/
+
+# Lucene index directories written by the PyLucene code in Group_Assignment_3
+index/
+
+# Appended to by index.py and assignment2_index.py on every run
+/output.txt
